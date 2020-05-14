@@ -1,0 +1,1 @@
+from dog_breeds_app import app
