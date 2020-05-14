@@ -3,8 +3,7 @@
 ## 1. Installation pre requisites
 
 Github has a limit of size and the model.pt is bigger than the limit, so the models have to be downloaded.
-You can download for yourself at https://drive.google.com/open?id=1ovY9s3_yTVgWQPPSZVq_VFOfjkevJmYE
-or can run the script download-model.
+You can download for yourself at https://drive.google.com/open?id=1ovY9s3_yTVgWQPPSZVq_VFOfjkevJmYE and save it at folder dog_breeds_app/model/model.pt.
 
 ## 2. Installation
 
