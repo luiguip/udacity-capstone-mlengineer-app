@@ -16,7 +16,7 @@ class DogBreedDetector:
         n_inputs = model.classifier[6].in_features
         last_layer = nn.Linear(n_inputs, 133)
         model.classifier[6] = last_layer
-        raw_model = torch.load(model_path)
+        raw_model = torch.load(model_path, map_location='cpu')
         model.load_state_dict(raw_model)
         model.eval()
         return model
